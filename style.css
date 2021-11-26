@@ -1,50 +1,83 @@
-.body{
-    padding:0rem;
-    margin:0rem;
+*{
+    margin: 0px;
+    padding:0px;
 
 }
-.header{
-    text-align: left;
-    padding-left: 20px;
-    margin-top:0px;
-    padding-bottom: 1rem;
-    background-color: rgb(227, 236, 238);
-    border:2px solid black;
-    border-bottom: 1px;
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
-.inline{
-    display:inline;
-   padding:1rem;
+.wrapper{
+    margin:0px auto;
+    width:100%;
+}
+.main{
+    width: 100%;
+    height:100vh;
+    background-image: url("images/jayu.jpg");
+    background-size: 100%;
+    overflow: hidden;
+
+}
+.nav{
+    width:100%;
+    height:80px;
+    background-color: rgba(0,0,0,0.6 );
+}
+ul{
+    float:left;
+    overflow: hidden;
+    display:block;
+    float:left;
+    border-right: 1px;
+
+}
+
+li{
+    float:left;
+    padding: auto;
    
 }
-.rev{
-    text-align: right;
-}
-
-
-.hero-img{
-    width:100%;
-    margin:100%
-    position: relative;
-    opacity:5px;
-    border:2px solid black;
-}
-.hh{
+a{
     text-align: center;
-    padding-left: 40%;
-    position:absolute;
-  
-}
-.section{
-    
-    right:1rem;
-    bottom:
-}
-#sec{
-    text-align:center;
-    color:black;
     display:block;
+    padding:24px;
+    font-size:24px;
+    color:white;
+    text-decoration:none;
+    transition:all .5sec;
+
 }
-#section{
+a:hover{
+    background-color:rgba(182, 189, 153, 0.5);
+    color:black;
+}
+article{
+    width:13.5%;
+    margin-left:10%; 
+    float:left;
     text-align: center;
+    display: block;
+    background-color:rgba(182, 189, 153, 0.5);
+    color:black;
+    padding:50px 50px 50px 50px;
+    border-radius: 2rem;
+    margin-top:100px;
+}
+article:hover{
+    background-color:rgba(186, 190, 106,.6);
+    color:black;
+    margin-top: 20px;
+}
+h1{
+ text-align: center;
+ color:rgba(26, 29, 29, 0.918);
+ padding-top:30px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+h3{
+    color:black;
+    text-align: center;;
+}
+.head{
+    padding-top:10px;
 }
