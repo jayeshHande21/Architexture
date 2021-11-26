@@ -1,0 +1,50 @@
+.body{
+    padding:0rem;
+    margin:0rem;
+
+}
+.header{
+    text-align: left;
+    padding-left: 20px;
+    margin-top:0px;
+    padding-bottom: 1rem;
+    background-color: rgb(227, 236, 238);
+    border:2px solid black;
+    border-bottom: 1px;
+}
+.inline{
+    display:inline;
+   padding:1rem;
+   
+}
+.rev{
+    text-align: right;
+}
+
+
+.hero-img{
+    width:100%;
+    margin:100%
+    position: relative;
+    opacity:5px;
+    border:2px solid black;
+}
+.hh{
+    text-align: center;
+    padding-left: 40%;
+    position:absolute;
+  
+}
+.section{
+    
+    right:1rem;
+    bottom:
+}
+#sec{
+    text-align:center;
+    color:black;
+    display:block;
+}
+#section{
+    text-align: center;
+}
