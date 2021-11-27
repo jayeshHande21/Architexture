@@ -29,6 +29,7 @@ body {
 }
 
 ul {
+    
     overflow: hidden;
     display: block;
     float: right;
@@ -37,6 +38,7 @@ ul {
 }
 
 li {
+
     float: right;
     padding: auto;
 
